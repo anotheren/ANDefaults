@@ -1,0 +1,7 @@
+git "https://github.com/anotheren/ANLog.git"
+
+# How to update
+# carthage update --platform iOS --no-use-binaries
+
+# How to install Carthage
+# brew install carthage
