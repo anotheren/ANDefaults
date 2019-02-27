@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0218C0F22268CBE0008E968 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0218C0E22268CBE0008E968 /* SwiftyBeaver.framework */; };
 		A0D191CC21D39BE100FCF51A /* ANDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D191CA21D39BE100FCF51A /* ANDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0D191D521D39CD600FCF51A /* Ex+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D191D221D39CD600FCF51A /* Ex+Optional.swift */; };
 		A0D191D621D39CD600FCF51A /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D191D321D39CD600FCF51A /* Defaults.swift */; };
 		A0D191D721D39CD600FCF51A /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D191D421D39CD600FCF51A /* Key.swift */; };
 		A0D191DB21D39D6B00FCF51A /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = A0D191DA21D39D6B00FCF51A /* Cartfile */; };
-		A0D191DE21D39DDA00FCF51A /* ANLog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D191DD21D39DDA00FCF51A /* ANLog.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0218C0E22268CBE0008E968 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
 		A0D191C721D39BE100FCF51A /* ANDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D191CA21D39BE100FCF51A /* ANDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANDefaults.h; sourceTree = "<group>"; };
 		A0D191CB21D39BE100FCF51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		A0D191D821D39D5B00FCF51A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A0D191D921D39D5B00FCF51A /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A0D191DA21D39D6B00FCF51A /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		A0D191DD21D39DDA00FCF51A /* ANLog.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ANLog.framework; path = Carthage/Build/iOS/ANLog.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0D191DE21D39DDA00FCF51A /* ANLog.framework in Frameworks */,
+				A0218C0F22268CBE0008E968 /* SwiftyBeaver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,7 +75,7 @@
 		A0D191DC21D39DDA00FCF51A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A0D191DD21D39DDA00FCF51A /* ANLog.framework */,
+				A0218C0E22268CBE0008E968 /* SwiftyBeaver.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

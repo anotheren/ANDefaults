@@ -7,17 +7,14 @@
 //
 
 import Foundation
-import ANLog
+import SwiftyBeaver
 
 final public class Defaults {
     
+    private let log = SwiftyBeaver.self
     private let userDefaults: UserDefaults
-    private let log: Log
     
     public init(userDefaults: UserDefaults) {
-        let subsystem = "com.anotheren.ANDefaults"
-        let log = Log(subsystem: subsystem, category: "UserDefaults")
-        self.log = log
         self.userDefaults = userDefaults
     }
 }
