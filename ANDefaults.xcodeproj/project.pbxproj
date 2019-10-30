@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A0218C0F22268CBE0008E968 /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0218C0E22268CBE0008E968 /* SwiftyBeaver.framework */; };
+		A068AB08236990EB00C6D765 /* ANDefaults.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A068AB07236990EB00C6D765 /* ANDefaults.podspec */; };
 		A0D191CC21D39BE100FCF51A /* ANDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = A0D191CA21D39BE100FCF51A /* ANDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0D191D521D39CD600FCF51A /* Ex+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D191D221D39CD600FCF51A /* Ex+Optional.swift */; };
 		A0D191D621D39CD600FCF51A /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D191D321D39CD600FCF51A /* Defaults.swift */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		A0218C0E22268CBE0008E968 /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
+		A068AB07236990EB00C6D765 /* ANDefaults.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ANDefaults.podspec; sourceTree = "<group>"; };
 		A0D191C721D39BE100FCF51A /* ANDefaults.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ANDefaults.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0D191CA21D39BE100FCF51A /* ANDefaults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ANDefaults.h; sourceTree = "<group>"; };
 		A0D191CB21D39BE100FCF51A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 				A0D191D921D39D5B00FCF51A /* LICENSE */,
 				A0D191D821D39D5B00FCF51A /* README.md */,
 				A0D191DA21D39D6B00FCF51A /* Cartfile */,
+				A068AB07236990EB00C6D765 /* ANDefaults.podspec */,
 				A0D191C921D39BE100FCF51A /* Sources */,
 				A0D191C821D39BE100FCF51A /* Products */,
 				A0D191DC21D39DDA00FCF51A /* Frameworks */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D191DB21D39D6B00FCF51A /* Cartfile in Resources */,
+				A068AB08236990EB00C6D765 /* ANDefaults.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +320,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -350,7 +354,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anotheren.ANDefaults;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
