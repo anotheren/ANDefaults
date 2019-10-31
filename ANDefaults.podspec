@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name = 'ANDefaults'
-    s.version = '1.3.2'
+    s.version = '1.3.3'
     s.license = 'MIT'
     s.summary = 'ANDefaults'
     s.homepage = 'https://github.com/anotheren/ANDefaults'
